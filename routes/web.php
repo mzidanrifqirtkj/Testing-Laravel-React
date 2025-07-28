@@ -16,7 +16,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/products', [ProductController::class, 'index'])->name('products.index');
     Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
 
-    Route::get('customers', [CustomersController::class, 'index'])->name('customers.index');
+    Route::get('/customers', [CustomersController::class, 'index'])->name('customers.index');
+    Route::get('/customers/create', [CustomersController::class, 'create'])->name('customers.create');
 });
 
 require __DIR__ . '/settings.php';

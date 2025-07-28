@@ -9,6 +9,6 @@ class CustomersController extends Controller
 {
     public function index()
     {
-        return Inertia::render("Customers/Index", []);
+        return Inertia::render("Customers/index", []);
     }
 }

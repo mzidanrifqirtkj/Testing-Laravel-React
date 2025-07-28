@@ -9,6 +9,11 @@ class ProductController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Products/Index', []);
+        return Inertia::render('Products/index', []);
+    }
+
+    public function create()
+    {
+        return Inertia::render('Products/create', []);
     }
 }
