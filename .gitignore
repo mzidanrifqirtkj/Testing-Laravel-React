@@ -1,3 +1,4 @@
+# Laravel
 /.phpunit.cache
 /bootstrap/ssr
 /node_modules
@@ -22,3 +23,33 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+.DS_Store
+bun.lockb
+# Bun
+bun.lockb
+
+# React (Vite or CRA)
+/build
+/dist
+
+# Optional - OS & editor files
+*.log
+*.sqlite
+*.sqlite3
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+Thumbs.db
+desktop.ini
+
+# Mac
+__MACOSX
+
+# JetBrains
+.idea
+
+# VS Code
+.vscode
