@@ -26,12 +26,12 @@
         "clsx": "^2.1.1",
         "concurrently": "^9.2.0",
         "globals": "^15.15.0",
+        "laravel-permission": "spatie/laravel-permission",
         "laravel-vite-plugin": "^2.0.0",
         "lucide-react": "^0.475.0",
         "react": "^19.1.1",
         "react-dom": "^19.1.1",
         "sonner": "^2.0.6",
-        "laravel-permission": "spatie/laravel-permission",
         "tailwind-merge": "^3.3.1",
         "tailwindcss": "^4.1.11",
         "tailwindcss-animate": "^1.0.7",
@@ -738,7 +738,7 @@
 
     "keyv": ["keyv@4.5.4", "", { "dependencies": { "json-buffer": "3.0.1" } }, "sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw=="],
 
-    "laravel-permission": ["laravel-permission@github:spatie/laravel-permission#7bd6e44", {}, "spatie-laravel-permission-7bd6e44"],
+    "laravel-permission": ["laravel-permission@github:spatie/laravel-permission#ae68164", {}, "spatie-laravel-permission-ae68164"],
 
     "laravel-vite-plugin": ["laravel-vite-plugin@2.0.0", "", { "dependencies": { "picocolors": "^1.0.0", "vite-plugin-full-reload": "^1.1.0" }, "peerDependencies": { "vite": "^7.0.0" }, "bin": { "clean-orphaned-assets": "bin/clean.js" } }, "sha512-pnaKHInJgiWpG/g+LmaISHl7D/1s5wnOXnrGiBdt4NOs+tYZRw0v/ZANELGX2/dGgHyEzO+iZ6x4idpoK04z/Q=="],
 
@@ -982,7 +982,7 @@
 
     "typed-array-length": ["typed-array-length@1.0.7", "", { "dependencies": { "call-bind": "^1.0.7", "for-each": "^0.3.3", "gopd": "^1.0.1", "is-typed-array": "^1.1.13", "possible-typed-array-names": "^1.0.0", "reflect.getprototypeof": "^1.0.6" } }, "sha512-3KS2b+kL7fsuk/eJZ7EQdnEmQoaho/r6KUef7hxvltNA5DR8NAUM+8wJMbJyZ4G9/7i3v5zPBIMN5aybAh2/Jg=="],
 
-    "typescript": ["typescript@5.8.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ=="],
+    "typescript": ["typescript@5.9.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A=="],
 
     "typescript-eslint": ["typescript-eslint@8.38.0", "", { "dependencies": { "@typescript-eslint/eslint-plugin": "8.38.0", "@typescript-eslint/parser": "8.38.0", "@typescript-eslint/typescript-estree": "8.38.0", "@typescript-eslint/utils": "8.38.0" }, "peerDependencies": { "eslint": "^8.57.0 || ^9.0.0", "typescript": ">=4.8.4 <5.9.0" } }, "sha512-FsZlrYK6bPDGoLeZRuvx2v6qrM03I0U0SnfCLPs/XCCPCFD80xU9Pg09H/K+XFa68uJuZo7l/Xhs+eDRg2l3hg=="],
 
